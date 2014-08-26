@@ -23,6 +23,8 @@ describe TreinoExercicio do
 
 
     after(:each) do
+        @treino = nil
         @exercicio = nil
+        @treinoExercicio = nil
     end
 end

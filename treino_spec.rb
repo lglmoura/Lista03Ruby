@@ -36,5 +36,7 @@ describe Treino do
 
     after(:each) do
         @treino = nil
+        @exercicio = nil
+        @treinoExercicio = nil
     end
 end
